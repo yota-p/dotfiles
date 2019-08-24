@@ -1,3 +1,5 @@
+FROM scratch
+
 RUN add-apt-repository ppa:kelleyk/emacs \
 && apt-get update \
 && apt-get install emacs26
