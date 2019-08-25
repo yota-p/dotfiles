@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Property file
 cp .bashrc ~
 cp .emacs ~
