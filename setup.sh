@@ -22,3 +22,6 @@ pip3 install cookiecutter
 
 # Watermark
 pip3 install watermark
+
+# Kaggle api
+pip3 install kaggle

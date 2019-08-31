@@ -99,3 +99,6 @@ fi
 #fi
 
 alias e='emacs'
+
+# pip3 bin install directory
+export PATH=$PATH:$HOME/.local/bin
