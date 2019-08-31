@@ -3,7 +3,6 @@
 # Property file
 cp .bashrc ~
 cp .emacs ~
-source ~/.bashrc
 
 # Emacs
 cd ~
@@ -15,7 +14,7 @@ cd emacs-26.2
 make
 sudo make install
 rm ~/emacs-26.2.tar.gz
-rm -r ~/emacs-26.2.tar.gz
+rm -r ~/emacs-26.2
 
 # CookieCutter
 pip3 install cookiecutter
@@ -25,3 +24,5 @@ pip3 install watermark
 
 # Kaggle api
 pip3 install kaggle
+
+source ~/.bashrc
