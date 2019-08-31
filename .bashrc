@@ -100,5 +100,9 @@ fi
 
 alias e='emacs'
 
+alias pip='pip3'
+
+alias h='history'
+
 # pip3 bin install directory
 export PATH=$PATH:$HOME/.local/bin
