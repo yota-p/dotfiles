@@ -9,8 +9,17 @@
 ;; use C-h as backspace instead of help
 (global-set-key "\C-h" 'delete-backward-char)
 
-;; display row number
-(global-display-line-numbers-mode)
+;; display line numbers
+(if (version<= "26.0.50" emacs-version)
+    (progn
+      (global-display-line-numbers-mode)
+      (set-face-attribute 'line-number nil
+                          :foreground "DarkOliveGreen"
+                          :background "#131521")
+      (set-face-attribute 'line-number-current-line nil
+                          :foreground "gold")
+    )
+)
 
 ;; enable visual feedback on selections
 (setq transient-mark-mode t)
