@@ -4,7 +4,6 @@
 pip install --upgrade pip
 
 # Kaggle-API
-Kaggleの公式API。データのDL, Submitをコマンドラインから実行可能になる。
 pip install kaggle
 
 # Emacs
@@ -13,7 +12,7 @@ apt-get update
 add-apt-repository ppa:kelleyk/emacs
 apt-get update
 apt-get install emacs25
-cp .emacs ~
+cp init.el ~/.emacs.d/
 
 # Bash
 cp .bashrc ~
