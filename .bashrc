@@ -104,5 +104,11 @@ alias pip='pip3'
 
 alias h='history'
 
-# pip3 bin install directory
-export PATH=$PATH:$HOME/.local/bin
+# set PATH for pip3 bin install directory
+export PATH=/usr/local/nvidia/bin:/usr/local/cuda/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/.local/bin:/opt/conda/lib/python3.6/site-packages
+
+# set PATH for cuda (GPU instance)
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+
+# ls Background colors for directory having 777
+LS_COLORS=$LS_COLORS:'ow=30;42:' ; export LS_COLORS
