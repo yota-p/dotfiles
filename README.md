@@ -1,2 +1,6 @@
-# kaggle_dev
-Developer environment for Kaggle competitions written in Docker file
+# kaggle_env
+
+Personal portable setup script for setting up environment on a new environment. 
+
+To use:
+$ ./setup.sh
