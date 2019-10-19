@@ -17,3 +17,7 @@ cp init.el ~/.emacs.d/
 # Bash
 cp .bashrc ~
 source ~/.bashrc
+
+# tmux
+apt-get install tmux
+cp .tmux.conf ~
