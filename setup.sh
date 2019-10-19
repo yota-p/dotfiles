@@ -4,7 +4,6 @@
 pip install --upgrade pip
 
 # Kaggle-API
-Kaggleの公式API。データのDL, Submitをコマンドラインから実行可能になる。
 pip install kaggle
 
 # Emacs
