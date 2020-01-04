@@ -1,4 +1,4 @@
-# kaggle_env
+# dotfiles
 
 Personal portable setup script for setting up environment on a new environment. 
 
