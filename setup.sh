@@ -24,4 +24,4 @@ cp .tmux.conf ~
 
 # ls_colors
 mkdir ~/.dircolors
-wget -P .dircolors https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
+wget -P ~/.dircolors https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
