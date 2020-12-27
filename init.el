@@ -34,3 +34,8 @@
 (load-theme 'solarized t)
 (set-terminal-parameter nil 'background-mode 'dark)
 (enable-theme 'solarized)
+
+;; don't create backup files *~
+(setq make-backup-files nil)
+
+
