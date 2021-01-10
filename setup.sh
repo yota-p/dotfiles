@@ -25,6 +25,6 @@ pip install --upgrade pip
 # Kaggle-API
 pip install kaggle
 
-# ls_colors
-#mkdir ~/.dircolors
-#wget -P ~/.dircolors https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
+# docker
+cp -r .docker/ ~/
+
