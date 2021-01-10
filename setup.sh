@@ -5,18 +5,17 @@ cp .bashrc ~
 source ~/.bashrc
 
 # apt
-apt update
-apt upgrade
+sudo apt -y update
+sudo apt -y upgrade
 
 # Emacs
-#apt-get install software-properties-common
-add-apt-repository ppa:kelleyk/emacs
-apt update
-apt install emacs26
+sudo add-apt-repository -y ppa:kelleyk/emacs
+sudo apt -y update
+sudo apt install -y emacs26
 cp init.el ~/.emacs.d/
 
 # tmux
-apt-get install tmux
+apt-get install -y tmux
 cp .tmux.conf ~
 
 # Update pip

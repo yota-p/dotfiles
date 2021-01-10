@@ -47,10 +47,5 @@ alias h='history'
 # pip3 bin installed directory (for Python)
 export PATH=/usr/local/nvidia/bin:/usr/local/cuda/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/.local/bin:/opt/conda/lib/python3.6/site-packages
 
-# Solalized ls color theme
-# Reference: https://github.com/seebi/dircolors-solarized
-export SHELL
-eval `dircolors ~/.dircolors/dircolors.256dark`
-
 # Prompt colors
 PS1='\[\033[1;35m\]\h: \W\[\033[0m\] $ '
