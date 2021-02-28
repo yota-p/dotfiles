@@ -49,3 +49,6 @@ export PATH=/usr/local/nvidia/bin:/usr/local/cuda/bin:/opt/conda/bin:/usr/local/
 
 # Prompt colors
 PS1='\[\033[1;35m\]\h: \W\[\033[0m\] $ '
+
+# Authorize GPGkey for GitHub
+export GPG_TTY=$(tty)
